@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
     domains: [
@@ -11,6 +12,7 @@ const nextConfig = {
     ],
   },
   basePath: '/hexcode',
+  assetPrefix: '/hexcode/',
 };
 
 module.exports = nextConfig;
