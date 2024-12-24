@@ -10,7 +10,7 @@ const nextConfig = {
       'raw.githubusercontent.com'
     ],
   },
-  basePath: '/your-repo-name',
+  basePath: '/hexcode',
 };
 
 module.exports = nextConfig;
